@@ -1,0 +1,65 @@
+Assignment 4.2
+
+Ques 1. Write a prg. to create barplots for all categorical columns in mtcars.
+        barplot<-ggplot(mtcars,aes(mpg))+
+        geom_bar(width = 0.5,fill="royalblue4",color="red")+
+        ggtitle("Barplot for mpg")
+        barplot
+
+        barplot<-ggplot(mtcars,aes(cyl))+
+        geom_bar(width = 0.5,fill="royalblue4",color="red")+
+        ggtitle("Barplot for cyl")
+        barplot
+
+        barplot<-ggplot(mtcars,aes(disp))+
+        geom_bar(width = 0.5,fill="royalblue4",color="red")+
+        ggtitle("Barplot for disp")
+        barplot
+
+        barplot<-ggplot(mtcars,aes(hp))+
+        geom_bar(width = 0.5,fill="royalblue4",color="red")+
+        ggtitle("Barplot for hp")
+        barplot
+
+
+       barplot<-ggplot(mtcars,aes(drat))+
+       geom_bar(width = 0.5,fill="royalblue4",color="red")+
+       ggtitle("Barplot for drat")
+       barplot
+
+
+      barplot<-ggplot(mtcars,aes(wt))+  
+      geom_bar(width = 0.5,fill="royalblue4",color="red")+
+      ggtitle("Barplot for wt")
+      barplot
+
+      barplot<-ggplot(mtcars,aes(qsec))+
+      geom_bar(width = 0.5,fill="royalblue4",color="red")+
+      ggtitle("Barplot for qsec")
+      barplot
+
+     barplot<-ggplot(mtcars,aes(vs))+
+     geom_bar(width = 0.5,fill="royalblue4",color="red")+
+     ggtitle("Barplot for vs")
+     barplot
+
+
+     barplot<-ggplot(mtcars,aes(am))+
+     geom_bar(width = 0.5,fill="royalblue4",color="red")+
+     ggtitle("Barplot for am")
+     barplot
+
+     barplot<-ggplot(mtcars,aes(gear))+
+     geom_bar(width = 0.5,fill="royalblue4",color="red")+
+     ggtitle("Barplot for gear ")
+     barplot
+
+
+    barplot<-ggplot(mtcars,aes(carb))+
+    geom_bar(width = 0.5,fill="royalblue4",color="red")+
+    ggtitle("Barplot for carb")
+    barplot
+
+Ques2. Create a Scatter Plot matrix by gears type in mtcars dataset.
+
+Ques3. Write a prg. to create plot density by class variable.
